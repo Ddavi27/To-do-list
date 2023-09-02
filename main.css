@@ -1,0 +1,19 @@
+.itemDescription{
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.itemCompleted :checked + .itemDescription{
+    background: white;
+    text-decoration:line-through;
+
+}
+
+#add {
+    padding: 8px 14px;
+    font-weight: bold;
+    color: white;
+    background: teal;
+    cursor: pointer;
+}
